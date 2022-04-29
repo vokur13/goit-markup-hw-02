@@ -5,10 +5,30 @@ body {
 /* Псевдоклассы состояния - Активируется когда курсор мыши находится в пределах элемента, 
 например при наведении мыши на ссылку или любой другой элемент. 
 Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
-.studio-contacts {
-  color: teal;
+.header .studio-contacts {
+  color: #757575;
 }
-.studio-contacts:hover,
-.studio-contacts:focus {
-  color: orange;
+.header .studio-contacts:hover,
+.header .studio-contacts:focus {
+  color: #2196f3;
+}
+.web-effect {
+  color: #2196f3;
+}
+.studio-nav {
+  color: #212121;
+}
+.studio-nav:hover,
+.studio-nav:focus {
+  color: #2196f3;
+}
+.studio-logo,
+.studio-nav,
+.header .studio-contacts,
+.footer .studio-contacts {
+  text-decoration: none;
+}
+.footer .studio-contacts {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.6);
 }
