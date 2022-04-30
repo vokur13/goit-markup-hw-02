@@ -12,6 +12,9 @@ body {
 .header .studio-contacts:focus {
   color: #2196f3;
 }
+.studio-logo {
+  color: #000000;
+}
 .web-effect {
   color: #2196f3;
 }
