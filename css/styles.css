@@ -1,37 +1,127 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --addres-links-color: rgba(255, 255, 255, 0.6);
+  --basic-backgroud-color: rgba(255, 255, 255, 1);
+  --background-color: rgba(245, 244, 250, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --black-color: rgba(0, 0, 0, 1);
+}
 /* Для элемента <body> задано свойство font-family с доминантным на макете шрифтом Roboto. */
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  color: rgba(117, 117, 117, 1);
+  background-color: var(--basic-backgroud-color);
 }
+/* Цвет основного текста: rgba(33, 33, 33, 1) */
+/* Вторичный цвет текста: rgba(117, 117, 117, 1) */
+/* Цвет адрессных ссылок: rgba(255, 255, 255, 0.6) */
+/* Белый: rgba(255, 255, 255, 1) */
+/* Акцент: rgba(33, 150, 243, 1) */
+/* Основной цвет фона: #E5E5E5 */
+/* Вторичный цвет фона: #F5F4FA */
 /* Псевдоклассы состояния - Активируется когда курсор мыши находится в пределах элемента, 
 например при наведении мыши на ссылку или любой другой элемент. 
 Текст контактов в хедере и футере меняет цвет при ховере и фокусе. */
 .header .studio-contacts {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .header .studio-contacts:hover,
 .header .studio-contacts:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .studio-logo {
-  color: #000000;
+  color: var(--black-color);
 }
 .web-effect {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .studio-nav {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .studio-nav:hover,
 .studio-nav:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+/* Principal section */
+.principal-section {
+}
+.principal-section-title {
+  color: red;
+}
+.order-button {
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+/* Features */
+.features .title,
+.team .title,
+.projects .title {
+  color: var(--title-text-color);
+}
+/* Buttons */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+}
+/* Projects portfolio */
+.filter-button {
+  color: var(--title-text-color);
+  background-color: var(--background-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.filter-button {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .studio-logo,
 .studio-nav,
+.studio-address,
 .header .studio-contacts,
 .footer .studio-contacts {
   text-decoration: none;
 }
+.studio-address {
+  background-color: var(--black-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
 .footer .studio-contacts {
-  background-color: black;
-  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--black-color);
+  color: var(--addres-links-color);
+}
+.list {
+  list-style: none;
+}
+.section-title {
+  color: var(--title-text-color);
 }
