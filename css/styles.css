@@ -68,8 +68,6 @@ body {
   color: var(--accent-color);
 }
 /* Principal section */
-.principal-section {
-}
 .principal-section-title {
   background-color: rgba(47, 48, 58, 1);
   font-style: normal;
@@ -86,7 +84,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
-  font-family: 'Roboto';
+  font-family: inherit;
+  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -96,6 +95,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  cursor: pointer;
 }
 .section-title {
   font-style: normal;
@@ -174,6 +174,7 @@ body {
   background-color: rgba(245, 244, 250, 1);
   border: none;
   border-radius: 4px;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -181,6 +182,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -188,6 +190,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
