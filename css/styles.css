@@ -117,8 +117,6 @@ body {
   color: var(--title-text-color);
 }
 .features-p-style {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
@@ -133,8 +131,6 @@ body {
   color: var(--title-text-color);
 }
 .team-unit {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 118%;
   text-align: ;
@@ -161,9 +157,6 @@ body {
   color: var(--title-text-color);
 }
 .projects .project-unit {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 188%;
   letter-spacing: 0.03em;
