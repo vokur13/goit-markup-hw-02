@@ -18,123 +18,135 @@
     <header class="header">
       <nav class="nav">
         <!--Навигация на другие страницы-->
-        <a class="studio-logo" href="./index.html"><span class="web-effect">Web</span>Studio</a>
+        <a class="studio-logo link" href="./index.html"
+          ><span class="web-effect">Web</span>Studio</a
+        >
         <ul class="list">
-          <li><a class="studio-nav" href="./index.html">Студия</a></li>
-          <li><a class="studio-nav current" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="studio-nav" href="">Контакты</a></li>
+          <li><a class="studio-nav link" href="./index.html">Студия</a></li>
+          <li><a class="studio-nav link current" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="studio-nav link" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul class="list">
-        <li><a class="studio-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="studio-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="studio-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="studio-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
-      <article>
-        <h1 style="display: none">Projects filter</h1>
+      <section>
+        <h1 class="porfolio-title visually-hidden">Projects filter</h1>
 
-        <div>
+        <ul class="projects-filter list">
           <!--Projects Filter-->
-          <button class="filter-button" type="button">Все</button>
-          <button class="filter-button" type="button">Веб-сайты</button>
-          <button class="filter-button" type="button">Приложения</button>
-          <button class="filter-button" type="button">Дизайн</button>
-          <button class="filter-button" type="button">Маркетинг</button>
-        </div>
+          <li>
+            <button class="filter-button" type="button">Все</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Приложения</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Дизайн</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Маркетинг</button>
+          </li>
+        </ul>
 
-        <div>
+        <ul class="projects list">
           <!--Projects Portfolio Titles-->
-          <ul class="projects list">
-            <li>
-              <a class="project-card" href="">
-                <img src="./images/projects-links/proj1.jpg" alt="Технокряк" width="370" />
-                <h2 class="title">Технокряк</h2>
-                <p class="project-unit">Веб-сайт</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href="">
-                <img
-                  src="./images/projects-links/proj2.jpg"
-                  alt="Постер New Orlean vs Golden Star"
-                  width="370"
-                />
-                <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                <p class="project-unit">Дизайн</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href="">
-                <img src="./images/projects-links/proj3.jpg" alt="Ресторан Seafood" width="370" />
-                <h2 class="title">Ресторан Seafood</h2>
-                <p class="project-unit">Приложение</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href=""
-                ><img src="./images/projects-links/proj4.jpg" alt="Проект Prime" width="370" />
-                <h2 class="title">Проект Prime</h2>
-                <p class="project-unit">Маркетинг</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href=""
-                ><img src="./images/projects-links/proj5.jpg" alt="Проект Boxes" width="370" />
-                <h2 class="title">Проект Boxes</h2>
-                <p class="project-unit">Приложение</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href="">
-                <img
-                  src="./images/projects-links/proj6.jpg"
-                  alt="Inspiration has no Borders"
-                  width="370"
-                />
-                <h2 class="title">Inspiration has no Borders</h2>
-                <p class="project-unit">Веб-сайт</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href="">
-                <img
-                  src="./images/projects-links/proj7.jpg"
-                  alt="Издание Limited Edition"
-                  width="370"
-                />
-                <h2 class="title">Издание Limited Edition</h2>
-                <p class="project-unit">Дизайн</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href=""
-                ><img src="./images/projects-links/proj8.jpg" alt="Проект LAB" width="370" />
-                <h2 class="title">Проект LAB</h2>
-                <p class="project-unit">Маркетинг</p>
-              </a>
-            </li>
-            <li>
-              <a class="project-card" href="">
-                <img src="./images/projects-links/proj9.jpg" alt="Growing Business" width="370" />
-                <h2 class="title">Growing Business</h2>
-                <p class="project-unit">Приложение</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </article>
+          <li>
+            <a class="project-card link" href="">
+              <img src="./images/projects-links/proj1.jpg" alt="Технокряк" width="370" />
+              <h2 class="title">Технокряк</h2>
+              <p class="project-unit">Веб-сайт</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href="">
+              <img
+                src="./images/projects-links/proj2.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370"
+              />
+              <h2 class="title">Постер New Orlean vs Golden Star</h2>
+              <p class="project-unit">Дизайн</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href="">
+              <img src="./images/projects-links/proj3.jpg" alt="Ресторан Seafood" width="370" />
+              <h2 class="title">Ресторан Seafood</h2>
+              <p class="project-unit">Приложение</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href=""
+              ><img src="./images/projects-links/proj4.jpg" alt="Проект Prime" width="370" />
+              <h2 class="title">Проект Prime</h2>
+              <p class="project-unit">Маркетинг</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href=""
+              ><img src="./images/projects-links/proj5.jpg" alt="Проект Boxes" width="370" />
+              <h2 class="title">Проект Boxes</h2>
+              <p class="project-unit">Приложение</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href="">
+              <img
+                src="./images/projects-links/proj6.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+              />
+              <h2 class="title">Inspiration has no Borders</h2>
+              <p class="project-unit">Веб-сайт</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href="">
+              <img
+                src="./images/projects-links/proj7.jpg"
+                alt="Издание Limited Edition"
+                width="370"
+              />
+              <h2 class="title">Издание Limited Edition</h2>
+              <p class="project-unit">Дизайн</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href=""
+              ><img src="./images/projects-links/proj8.jpg" alt="Проект LAB" width="370" />
+              <h2 class="title">Проект LAB</h2>
+              <p class="project-unit">Маркетинг</p>
+            </a>
+          </li>
+          <li>
+            <a class="project-card link" href="">
+              <img src="./images/projects-links/proj9.jpg" alt="Growing Business" width="370" />
+              <h2 class="title">Growing Business</h2>
+              <p class="project-unit">Приложение</p>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer class="footer">
       <!--Футер - Наши контакты-->
-      <a class="studio-logo" href="./index.html"><span class="web-effect">Web</span>Studio</a>
+      <a class="studio-logo link" href="./index.html"><span class="web-effect">Web</span>Studio</a>
       <address>
         <ul class="list">
           <li>
             <a
-              class="studio-address"
+              class="studio-address link"
               href="https://www.google.com/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000"
               target="_blank"
               rel="noreferrer noopener"
@@ -142,10 +154,10 @@
             >
           </li>
           <li>
-            <a class="studio-contacts" href="mailto:info@example.com">info@example.com</a>
+            <a class="studio-contacts link" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a class="studio-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="studio-contacts link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
